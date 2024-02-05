@@ -59,6 +59,7 @@ def button_divide1():
 
 root = Tk()
 root.title("Simple calculator")
+root.iconbitmap("calculator.ico")
 
 number_entry = Entry(root, width=35, borderwidth=5)
 number_entry.grid(row=0, column=0, 
